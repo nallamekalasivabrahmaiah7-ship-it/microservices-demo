@@ -14,6 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="protos\Cart.proto" GrpcServices="Both" />
+    <ProjectReference Include="..\src\cartservice.csproj" />
   </ItemGroup>
 </Project>
